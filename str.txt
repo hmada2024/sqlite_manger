@@ -1,0 +1,34 @@
+sqlite_manager/
+├── gui/
+│   ├── __init__.py
+│   ├── main_window.py
+│   ├── database_frame.py
+│   ├── dialogs/
+│   │   ├── __init__.py
+│   │   ├── create_table_dialog.py
+│   │   ├── edit_data_dialog.py
+│   │   └── add_data_dialog.py
+│   ├── components/
+│   │   ├── __init__.py
+│   │   ├── table_view.py
+│   │   ├── toolbar.py
+│   │   └── status_bar.py
+│   └── utils/
+│       ├── __init__.py
+│       └── ui_helpers.py
+├── database/
+│   ├── __init__.py
+│   ├── db_manager.py
+│   ├── query_builder.py
+│   └── connection_pool.py
+├── utils/
+│   ├── __init__.py
+│   ├── file_operations.py
+│   ├── data_converter.py
+│   └── logger.py
+├── config/
+│   ├── __init__.py
+│   └── settings.py
+├── main.py
+├── requirements.txt
+└── README.md
